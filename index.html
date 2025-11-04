@@ -3,19 +3,90 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Mon Site</title>
+    <title>Hypnordv</title>
     <style>
-        body { font-family: Arial, sans-serif; background: #f0f0f0; text-align: center; padding: 50px; }
-        h1 { color: #333; }
-        p { color: #666; font-size: 18px; }
-        a { color: #0077cc; text-decoration: none; }
-        a:hover { text-decoration: underline; }
+        body {
+            margin: 0;
+            font-family: 'Arial', sans-serif;
+            background: linear-gradient(to bottom, #f0f8ff, #dbefff);
+            color: #333;
+        }
+        header {
+            background: #005f99;
+            color: white;
+            padding: 20px 0;
+            text-align: center;
+        }
+        header h1 {
+            margin: 0;
+            font-size: 2.5em;
+        }
+        nav {
+            margin: 15px 0;
+        }
+        nav a {
+            margin: 0 15px;
+            text-decoration: none;
+            color: white;
+            font-weight: bold;
+        }
+        nav a:hover {
+            text-decoration: underline;
+        }
+        main {
+            max-width: 800px;
+            margin: 40px auto;
+            padding: 0 20px;
+            text-align: center;
+        }
+        footer {
+            background: #005f99;
+            color: white;
+            text-align: center;
+            padding: 15px 0;
+            margin-top: 50px;
+        }
+        button {
+            background: #0077cc;
+            color: white;
+            border: none;
+            padding: 10px 20px;
+            margin-top: 20px;
+            font-size: 16px;
+            cursor: pointer;
+            border-radius: 5px;
+        }
+        button:hover {
+            background: #005fa3;
+        }
     </style>
 </head>
 <body>
-    <h1>Bienvenue sur mon vrai site !</h1>
-    <p>Ceci est un site web “réel”, pas juste un fichier local.</p>
-    <a href="#">Clique ici pour tester un lien</a>
+    <header>
+        <h1>Hypnordv</h1>
+        <nav>
+            <a href="#about">À propos</a>
+            <a href="#services">Services</a>
+            <a href="#contact">Contact</a>
+        </nav>
+    </header>
+    <main>
+        <section id="about">
+            <h2>Bienvenue sur Hypnordv</h2>
+            <p>Voici votre site web moderne, simple et fonctionnel.</p>
+        </section>
+        <section id="services">
+            <h2>Services</h2>
+            <p>Vous pouvez présenter vos services, produits ou projets ici.</p>
+            <button>En savoir plus</button>
+        </section>
+        <section id="contact">
+            <h2>Contact</h2>
+            <p>Envoyez-nous un message : <a href="mailto:contact@hypnordv.com">contact@hypnordv.com</a></p>
+        </section>
+    </main>
+    <footer>
+        &copy; 2025 Hypnordv. Tous droits réservés.
+    </footer>
 </body>
 </html>
-
